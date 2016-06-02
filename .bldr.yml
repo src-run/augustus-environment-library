@@ -12,5 +12,5 @@ app_prep   : dep-composer
 app_post   : ~
 app_path   : ~
 pkg_name   : augustus-environment-library
-pkg_desc   : "collection of enviornment-detection method"
+pkg_desc   : "collection of environment-detection methods"
 pkg_bndl   : false

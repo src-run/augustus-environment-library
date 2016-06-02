@@ -8,7 +8,7 @@
 
 [Welcome](https://src.run/go/readme_welcome)!
 The `src-run/augustus-environment-library` package provides a
-collection of reflection wrapper objects and helprs to simplify common tasks.
+collection of environment-detection methods.
 
 ### Grouping
 
