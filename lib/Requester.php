@@ -19,7 +19,7 @@ final class Requester implements RequesterInterface
     /**
      * @return bool
      */
-    static public function isLocal()
+    public static function isLocal()
     {
         if (Sapi::isCli() === true) {
             return true;

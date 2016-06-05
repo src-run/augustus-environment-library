@@ -24,7 +24,7 @@ class IncludePathTest extends \PHPUnit_Framework_TestCase
 
         $default = IncludePath::get();
         IncludePath::prependAdd(__DIR__);
-        $expected = $this->cleanPath(__DIR__ . PATH_SEPARATOR . $default);
+        $expected = $this->cleanPath(__DIR__.PATH_SEPARATOR.$default);
 
         $this->assertSame($expected, IncludePath::get());
     }
@@ -35,7 +35,7 @@ class IncludePathTest extends \PHPUnit_Framework_TestCase
 
         $default = IncludePath::get();
         IncludePath::appendAdd(__DIR__);
-        $expected = $this->cleanPath($default . PATH_SEPARATOR . __DIR__);
+        $expected = $this->cleanPath($default.PATH_SEPARATOR.__DIR__);
 
         $this->assertSame($expected, IncludePath::get());
     }
@@ -45,7 +45,7 @@ class IncludePathTest extends \PHPUnit_Framework_TestCase
         IncludePath::restore();
 
         $default = IncludePath::get();
-        IncludePath::appendAdd(__DIR__ . '/does/not/exist');
+        IncludePath::appendAdd(__DIR__.'/does/not/exist');
         $expected = $default;
 
         $this->assertSame($expected, IncludePath::get());
@@ -57,7 +57,7 @@ class IncludePathTest extends \PHPUnit_Framework_TestCase
 
         $default = IncludePath::get();
         IncludePath::appendAdd(__DIR__);
-        $expected = $this->cleanPath($default . PATH_SEPARATOR . __DIR__);
+        $expected = $this->cleanPath($default.PATH_SEPARATOR.__DIR__);
 
         $this->assertSame($expected, IncludePath::get());
 

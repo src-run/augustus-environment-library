@@ -19,7 +19,7 @@ interface RequesterInterface
     /**
      * @return bool
      */
-    static public function isLocal();
+    public static function isLocal();
 }
 
 /* EOF */

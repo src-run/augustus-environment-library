@@ -15,7 +15,7 @@
  * file that was distributed with this source code.
  */
 
-require_once "../../vendor/autoload.php";
+require_once '../../vendor/autoload.php';
 
 use SR\Environment\Sapi;
 use SR\Environment\Requester;

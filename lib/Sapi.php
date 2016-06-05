@@ -19,7 +19,7 @@ final class Sapi implements SapiInterface
     /**
      * @return bool
      */
-    static public function isCli()
+    public static function isCli()
     {
         return PHP_SAPI === 'cli';
     }
@@ -27,7 +27,7 @@ final class Sapi implements SapiInterface
     /**
      * @return bool
      */
-    static public function isPhpServer()
+    public static function isPhpServer()
     {
         return PHP_SAPI === 'cli-server';
     }
@@ -35,7 +35,7 @@ final class Sapi implements SapiInterface
     /**
      * @return bool
      */
-    static public function isWebServer()
+    public static function isWebServer()
     {
         if (static::isCli() === true) {
             return false;

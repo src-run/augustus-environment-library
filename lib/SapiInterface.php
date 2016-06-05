@@ -34,17 +34,17 @@ interface SapiInterface
     /**
      * @return bool
      */
-    static public function isCli();
+    public static function isCli();
 
     /**
      * @return bool
      */
-    static public function isPhpServer();
+    public static function isPhpServer();
 
     /**
      * @return bool
      */
-    static public function isWebServer();
+    public static function isWebServer();
 }
 
 /* EOF */

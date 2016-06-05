@@ -19,7 +19,7 @@ final class IncludePath
     /**
      * @return string
      */
-    static public function restore()
+    public static function restore()
     {
         restore_include_path();
 
@@ -29,7 +29,7 @@ final class IncludePath
     /**
      * @return string
      */
-    static public function get()
+    public static function get()
     {
         return (string) get_include_path();
     }
@@ -40,7 +40,7 @@ final class IncludePath
      *
      * @return bool|string
      */
-    static public function add($includePath, $prepend = true)
+    public static function add($includePath, $prepend = true)
     {
         if (!file_exists($includePath)) {
             return false;
@@ -50,14 +50,14 @@ final class IncludePath
 
         if ($prepend) {
             return set_include_path(
-                ($includePath . PATH_SEPARATOR) .
+                ($includePath.PATH_SEPARATOR).
                 (substr($existing, 0, 1) === PATH_SEPARATOR ? substr($existing, 1) : $existing)
             );
         }
 
         return set_include_path(
-            (substr($existing, -1, 1) === PATH_SEPARATOR ? substr($existing, 0, strlen($existing) - 1) : $existing) .
-            (PATH_SEPARATOR . $includePath)
+            (substr($existing, -1, 1) === PATH_SEPARATOR ? substr($existing, 0, strlen($existing) - 1) : $existing).
+            (PATH_SEPARATOR.$includePath)
         );
     }
 
@@ -66,7 +66,7 @@ final class IncludePath
      *
      * @return bool|string
      */
-    static public function prependAdd($includePath)
+    public static function prependAdd($includePath)
     {
         return static::add($includePath, true);
     }
@@ -76,7 +76,7 @@ final class IncludePath
      *
      * @return bool|string
      */
-    static public function appendAdd($includePath)
+    public static function appendAdd($includePath)
     {
         return static::add($includePath, false);
     }
