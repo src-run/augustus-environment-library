@@ -51,12 +51,14 @@ final class IncludePath
         if ($prepend) {
             return set_include_path(
                 ($includePath . PATH_SEPARATOR) .
-                (substr($existing, 0, 1) === PATH_SEPARATOR ? substr($existing, 1) : $existing));
+                (substr($existing, 0, 1) === PATH_SEPARATOR ? substr($existing, 1) : $existing)
+            );
         }
 
         return set_include_path(
             (substr($existing, -1, 1) === PATH_SEPARATOR ? substr($existing, 0, strlen($existing) - 1) : $existing) .
-            (PATH_SEPARATOR . $includePath));
+            (PATH_SEPARATOR . $includePath)
+        );
     }
 
     /**
