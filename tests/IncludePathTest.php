@@ -62,9 +62,7 @@ class IncludePathTest extends \PHPUnit_Framework_TestCase
         $this->assertSame($expected, IncludePath::get());
 
         IncludePath::restore();
-        $expected = '.:';
-
-        $this->assertSame($expected, IncludePath::get());
+        $this->assertNotSame($expected, IncludePath::get());
     }
 
     private function cleanPath($path)
