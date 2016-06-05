@@ -1,7 +1,7 @@
 ---
 
 ##
-# This file is part of the `src-run/augustus-environment-library` project.
+# This file is part of the `src-run/vermicious-environment-library` project.
 #
 # (c) Rob Frawley 2nd <rmf@src.run>
 #
@@ -26,6 +26,7 @@ install :
 
 before_script :
   - php -S 127.0.0.1:8888 -t tests/ &
+  - sleep 4
 
 script :
   - bin/phpunit -vvv

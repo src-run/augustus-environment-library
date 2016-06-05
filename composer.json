@@ -1,16 +1,16 @@
 {
-  "name"        : "src-run/augustus-environment-library",
+  "name"        : "src-run/vermicious-environment-library",
   "license"     : "MIT",
   "type"        : "library",
-  "homepage"    : "https://src.run/augustus-environment-library",
+  "homepage"    : "https://src.run/vermicious-environment-library",
   "description" : "collection of reflection wrapper objects and helprs to simplify common tasks",
   "support" : {
     "email"  : "rmf@src.run",
-    "source" : "https://src.run/augustus-environment-library/git",
-    "issues" : "https://src.run/augustus-environment-library/issues"
+    "source" : "https://src.run/vermicious-environment-library/git",
+    "issues" : "https://src.run/vermicious-environment-library/issues"
   },
   "keywords" : [
-    "augustus-environment-library", "augustus", "reflection", "library", "rmf", "src-run"
+    "vermicious-environment-library", "augustus", "reflection", "library", "rmf", "src-run"
   ],
   "authors" : [
     {

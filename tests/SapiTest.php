@@ -1,7 +1,7 @@
 <?php
 
 /*
- * This file is part of the `src-run/augustus-environment-library` project.
+ * This file is part of the `src-run/vermicious-environment-library` project.
  *
  * (c) Rob Frawley 2nd <rmf@src.run>
  *
@@ -28,11 +28,11 @@ class SapiTest extends \PHPUnit_Framework_TestCase
     public function testIsWeb()
     {
         $server = new \Goutte\Client();
-        //$response = $server->request('GEt', 'http://127.0.0.1:8888/webroot/test.php');
+        $response = $server->request('GEt', 'http://127.0.0.1:8888/webroot/test.php');
 
-        //$this->assertRegExp('{Is CLI SAPI: false}', $response->text());
-        //$this->assertRegExp('{Is PHP Server SAPI: true}', $response->text());
-        //$this->assertRegExp('{Is Web Server SAPI: true}', $response->text());
+        $this->assertRegExp('{Is CLI SAPI: false}', $response->text());
+        $this->assertRegExp('{Is PHP Server SAPI: true}', $response->text());
+        $this->assertRegExp('{Is Web Server SAPI: true}', $response->text());
     }
 }
 

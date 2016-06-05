@@ -1,19 +1,19 @@
-# [src-run] augustus-environment-library
+# [src-run] vermicious-environment-library
 
 | Continuous Integration |   Code Quality Review   |    UnitTest Coverage    |
 |:----------------------:|:-----------------------:|:-----------------------:|
-| [![Travis](https://src.run/augustus-environment-library/travis_shield)](https://src.run/augustus-environment-library/travis) | [![Codacy](https://src.run/augustus-environment-library/codacy_shield)](https://src.run/augustus-environment-library/codacy) | [![Coveralls](https://src.run/augustus-environment-library/coveralls_shield)](https://src.run/augustus-environment-library/coveralls) |
+| [![Travis](https://src.run/vermicious-environment-library/travis_shield)](https://src.run/vermicious-environment-library/travis) | [![Codacy](https://src.run/vermicious-environment-library/codacy_shield)](https://src.run/vermicious-environment-library/codacy) | [![Coveralls](https://src.run/vermicious-environment-library/coveralls_shield)](https://src.run/vermicious-environment-library/coveralls) |
 
 ## Overview
 
 [Welcome](https://src.run/go/readme_welcome)!
-The `src-run/augustus-environment-library` package provides a
+The `src-run/vermicious-environment-library` package provides a
 collection of environment-detection methods.
 
 ### Grouping
 
-This package is part of the [arthur](https://src.run/augustus-environment-library/group)
-group ([explanation](https://src.run/augustus-environment-library/group_explanation)),
+This package is part of the [arthur](https://src.run/vermicious-environment-library/group)
+group ([explanation](https://src.run/vermicious-environment-library/group_explanation)),
 comprised of other releases with a concentration in
 *core reflection base classes*,
 and related functionality.
@@ -25,7 +25,7 @@ This package represents a single project within a
 under the *SR* namespace, comprised of framework-agnostic libraries,
 and a number of Symfony bundles. These projects are authored and maintained
 by [Rob Frawley 2nd](https://src.run/rmf) and
-[collaborators](https://src.run/augustus-environment-library/github_collaborators).
+[collaborators](https://src.run/vermicious-environment-library/github_collaborators).
 
 ## Quick Start
 
@@ -37,14 +37,14 @@ your project requirements. For example, to explicitly require this project using
 the CLI, use the following command.
 
 ```bash
-$ composer require src-run/augustus-environment-library
+$ composer require src-run/vermicious-environment-library
 ```
 
 ## Reference
 
 ### API Docs
 
-This package's API-documentation is available at [src.run/augustus-environment-library/api](https://src.run/augustus-environment-library/api),
+This package's API-documentation is available at [src.run/vermicious-environment-library/api](https://src.run/vermicious-environment-library/api),
 (as well as linked below via the *Reference* badge found under the *Additional Links*
 header). All API-reference is build against the *master* Git branch and updated
 automatically on each Git push---api-reference for *specific releases* will
@@ -81,8 +81,8 @@ be joined using the following link
 ### Issues
 
 To report issues or request a new feature use
-[GitHub](https://src.run/augustus-environment-library/github_issues)
-or [GitLab](https://src.run/augustus-environment-library/gitlab_issues)
+[GitHub](https://src.run/vermicious-environment-library/github_issues)
+or [GitLab](https://src.run/vermicious-environment-library/gitlab_issues)
 to start a discussion. Include as much information as possible to aid in
 a quick resolution. Feel free to "ping" the topic if you don't get a
 response within a few days.
@@ -92,7 +92,7 @@ response within a few days.
 You created additional functionality during the use of this package? Send
 it back upstream! *Don't hesitate to submit a pull request!* Beyond the
 brief requirements outlined in the
-[contibuting guide](https://src.run/augustus-environment-library/contributing),
+[contibuting guide](https://src.run/vermicious-environment-library/contributing),
 your [imagination](https://src.run/go/readme_imagination)
 represents the only limitation.
 
@@ -103,14 +103,14 @@ This project is licensed under the
 [FSF](https://src.run/go/fsf)-/[OSI](https://src.run/go/osi)-approved
 and [GPL](https://src.run/go/gpl)-compatible, permissive free software
 license. Review the
-[LICENSE](https://src.run/augustus-environment-library/license)
+[LICENSE](https://src.run/vermicious-environment-library/license)
 file distributed with this source code for additional information.
 
 ## Additional Links
 
 |       Purpose | Status        |
 |--------------:|:--------------|
-| *Stable Release*    | [![Packagist](https://src.run/augustus-environment-library/packagist_shield)](https://src.run/augustus-environment-library/packagist) |
-| *Dev Release*    | [![Packagist](https://src.run/augustus-environment-library/packagist_pre_shield)](https://src.run/augustus-environment-library/packagist) |
-| *License*    | [![License](https://src.run/augustus-environment-library/license_shield)](https://src.run/augustus-environment-library/license) |
-| *Reference*  | [![License](https://src.run/augustus-environment-library/api_shield)](https://src.run/augustus-environment-library/api) |
+| *Stable Release*    | [![Packagist](https://src.run/vermicious-environment-library/packagist_shield)](https://src.run/vermicious-environment-library/packagist) |
+| *Dev Release*    | [![Packagist](https://src.run/vermicious-environment-library/packagist_pre_shield)](https://src.run/vermicious-environment-library/packagist) |
+| *License*    | [![License](https://src.run/vermicious-environment-library/license_shield)](https://src.run/vermicious-environment-library/license) |
+| *Reference*  | [![License](https://src.run/vermicious-environment-library/api_shield)](https://src.run/vermicious-environment-library/api) |
