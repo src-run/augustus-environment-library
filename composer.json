@@ -10,7 +10,7 @@
     "issues" : "https://src.run/vermicious-environment-library/issues"
   },
   "keywords" : [
-    "vermicious-environment-library", "augustus", "reflection", "library", "rmf", "src-run"
+    "vermicious-environment-library", "augustus", "environment", "library", "rmf", "src-run"
   ],
   "authors" : [
     {

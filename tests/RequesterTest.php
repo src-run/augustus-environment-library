@@ -30,7 +30,6 @@ class RequesterTest extends \PHPUnit_Framework_TestCase
 
         $this->assertRegExp('{Is Local Requester: true}', $response->text());
     }
-
 }
 
 /* EOF */
